@@ -72,6 +72,7 @@ abstract participant User identified by id {
   o String id
   o String name
   o Double balance
+  o String password
 }
 
 /**
