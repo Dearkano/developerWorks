@@ -112,14 +112,16 @@ participant Bank extends User {
  * 受捐献人
  */
 participant Beneficiary extends User {
-
+  // 实名制 身份证号
+  o String IDCard
 }
 
 /**
  * 捐赠人
  */
 participant Donor extends User {
-
+  // 实名制 身份证号
+  o String IDCard
 }
 
 /**
